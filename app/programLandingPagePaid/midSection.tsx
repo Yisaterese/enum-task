@@ -6,15 +6,16 @@ import Image from 'next/image';
 
 export default function MidSection(){
     return(
-        <div className={'flex'}>
-            <div className={'w-[70%] border-r-4'}>
-                <div className={'flex gap-3 text-black ml-[7%]'}>
+        <div className={'flex border-t-2 mt-4'}>
+
+            <div className={'w-[70%] border-r-2 '}>
+                <div className={'flex gap-3 mt-[50px] text-black ml-[7%]'}>
                     <p>About</p>
                     <p>Program goals</p>
                     <p>Program benefits</p>
                     <p>Courses</p>
                 </div>
-                <div className={'ml-[7%] m-4 mr-[8%] '}>
+                <div className={'ml-[7%] mt-[50px] m-4 mr-[8%] '}>
                     <h1 className={'text-black text-lg font-bold'}>About Program</h1>
                     <div className={'text-black text-xs mt-3 '}>
                         This course examines important issues in corporate finance from the perspectives of financial
@@ -39,12 +40,11 @@ export default function MidSection(){
                     </div>
                     <h1 className={'text-black text-lg font-bold m-6 ml-0'}>Courses</h1>
                     <h2 className={'text-black text-xs mt-3 '}>There are 7 courses in this program</h2>
-
                     <div className={'flex pt-8'}>
                         <h1 className={'text-black text-lg font-bold m-6 mb-2 ml-0'}>Course 1 . </h1><span
                         className={'text-black text-thin  m-6 mb-2 ml-0'}> Credit unit</span>
                     </div>
-                    <h2 className={'text-black text-lg font-bold border-b-4'}>Business Ethics</h2>
+                    <h2 className={'text-black text-lg font-bold border-b-2'}>Business Ethics</h2>
                     <h1 className={'text-black text-lg font-bold m-6 ml-0'}>Description</h1>
                     <h2 className={'text-black text-xs mt-3 '}>
                         This course examines important issues in corporate finance from the perspectives of financial managers
@@ -199,15 +199,143 @@ export default function MidSection(){
                                     </div>
                                 </div>
                             </div>
-                            {/*netxt div*/}
+                            <div className={'bg-[#FBFBFB] py-3 my-3'}>
+                                <div className={'text-black ml-5    '}>
+                                    <div className={'flex justify-between'}>
+                                        <div>
+                                            <p className={'text-xs'}>SESSION 4</p>
+                                            <p className={'font-medium'}>Introduction to Business Law</p>
+                                        </div>
+                                        <p className={'border-[1.5px] rounded w-6 h-7 m-3 pt-0.5'}>
+                                            <Icon icon="clarity:plus-line" className={'m-0.5'}/>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className={'bg-[#FBFBFB] py-3 my-3'}>
+                                <div className={'text-black ml-5    '}>
+                                    <div className={'flex justify-between'}>
+                                        <div>
+                                            <p className={'text-xs'}>SESSION 5</p>
+                                            <p className={'font-medium'}>Excel Tool</p>
+                                        </div>
+                                        <p className={'border-[1.5px] rounded w-6 h-7 m-3 pt-0.5'}>
+                                            <Icon icon="clarity:plus-line" className={'m-0.5'}/>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className={'bg-[#FBFBFB] py-3 my-3'}>
+                                <div className={'text-black ml-5    '}>
+                                    <div className={'flex justify-between'}>
+                                        <div>
+                                            <p className={'text-xs'}>SESSION 6</p>
+                                            <p className={'font-medium'}>Power BI</p>
+                                        </div>
+                                        <p className={'border-[1.5px] rounded w-6 h-7 m-3 pt-0.5'}>
+                                            <Icon icon="clarity:plus-line" className={'m-0.5'}/>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className={'bg-[#F6FCFF] py-3 my-3'}>
+                                <div className={'text-black ml-5    '}>
+                                    <div className={'flex justify-between'}>
+                                        <div className={'text-black '}>
+                                            <div className={'flex gap-2'}>
+                                                <h1 className={'font-semibold-[500]'}>Course 2 </h1>
+                                                <p className={'text-xs m-1 ml-0'}>• 4 Credit Units</p>
+                                            </div>
+                                            <p className={'font-medium'}>Design management</p>
+                                        </div>
+                                        <p className={'border-[1.5px] rounded w-6 h-7 m-3 pt-0.5'}>
+                                            <Icon icon="clarity:plus-line" className={'m-0.5'}/>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className={'bg-[#F6FCFF] py-3 my-3'}>
+                                <div className={'text-black ml-5    '}>
+                                    <div className={'flex justify-between'}>
+                                        <div className={'text-black '}>
+                                            <div className={'flex gap-2'}>
+                                                <h1 className={'font-semibold-[500]'}>Course 3 </h1>
+                                                <p className={'text-xs m-1 ml-0'}>• 4 Credit Units</p>
+                                            </div>
+                                            <p className={'font-medium'}>Business Leadership</p>
+                                        </div>
+                                        <p className={'border-[1.5px] rounded w-6 h-7 m-3 pt-0.5'}>
+                                            <Icon icon="clarity:plus-line" className={'m-0.5'}/>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className={'bg-[#F6FCFF] py-3 my-3 mb-[100px]'}>
+                                <div className={'text-black ml-5    '}>
+                                    <div className={'flex justify-between'}>
+                                        <div className={'text-black '}>
+                                            <div className={'flex gap-2'}>
+                                                <h1 className={'font-semibold-[500]'}>Course 4 </h1>
+                                                <p className={'text-xs m-1 ml-0'}>• 2 Credit Units</p>
+                                            </div>
+                                            <p className={'font-medium'}>Color Theory</p>
+                                        </div>
+                                        <p className={'border-[1.5px] rounded w-6 h-7 m-3 pt-0.5'}>
+                                            <Icon icon="clarity:plus-line" className={'m-0.5'}/>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className={'w-[30%]'}>
+            <div className={'w-[30%] pt-8 pl-4 pr-10'}>
                 <div className={'rounded mt-4 ml-5 mr-6'}>
                     <div className={''} style={{color: '#b3e2ef'}}>
+                        <div className="max-w-md mx-auto border-2 shadow-lg rounded-lg overflow-hidden">
+                                <div className="p-6 bg-[#F6FCFF] h-[50%]">
+                                    <div>
+                                        <h2 className="  text-[10px] text-[#6174A1] mb-1">APPLICATION FEE</h2>
+                                        <p className="text-xl font-bold text-blue-500 mb-3">₦10,000.00</p>
+                                        <h2 className="text-[8px] text-[#6174A1] mb-1">PROGRAM FEES</h2>
+                                        <p className="text-xl font-bold text-blue-500 mb-3">₦840,000.00</p>
+                                            <button
+                                                className="bg-blue-500 text-white px-4 py-2 w-[100%] rounded hover:bg-blue-600">Apply
+                                                Now
+                                            </button>
+                                    </div>
+                                    <button
+                                        className=" text-xs mt-2 text-blue-500 px-4 py-2 w-[230px] rounded hover:bg-gray-300">View
+                                        Application Process
+                                    </button>
+                                </div>
+                                <div className={'mt-4 h-[100%] w-[50%]'}>
+                                    <div className={'flex-col'}>
+                                        <div className={'ml-6 mb-3 gap-2 flex'}>
+                                            <Icon icon={'lucide:book-open'} className={'text-[#C0CAD0] w-4 h-4'}/>
+                                            <h1 className={'text-black text-xs font-medium'}> 2 Modules</h1>
+                                        </div>
+                                        <div className={'ml-6 mb-3 gap-2 flex'}>
+                                            <Icon icon={'uit:calender'} className={'text-[#C0CAD0] w-4 h-4'}/>
+                                            <h1 className={'text-black text-xs font-medium'}> 7 Months</h1>
+                                        </div>
+                                        <div className={'ml-6 mb-3 gap-2 flex'}>
+                                            <Icon icon={'ep:user'} className={'text-[#C0CAD0] w-4 h-4'}/>
+                                            <h1 className={'text-black text-xs font-medium'}> 5,000 enrolled</h1>
+                                        </div>
+                                    </div>
+                                    <div className={'ml-6 py-8'}>
+                                        <h1 className={'text-black text-xs  font-medium'}> PROGRAM RATING</h1>
+                                        <div className={'gap-2 flex my-2 '}>
+                                            <Icon icon={'ic:outline-star'} className={'w-[19.4px] h-[19.4px] text-amber-400'}/>
+                                            <p className={'text-black gap-1 flex '}>4.8<h1 className={'text-[10px] mt-[4px] '}>(98)</h1> </p>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
 
                         <div>
                             {/*<ButtonProps word={'Apply Now'} className={'bg-blue-700 rounded '}/>*/}
