@@ -3,3 +3,8 @@ export type ProgramSectionProps = {
     word: string;
     className?: string;
 };
+
+export type ButtonProps={
+    word:string;
+    className?: string;
+}

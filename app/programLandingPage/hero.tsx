@@ -5,6 +5,7 @@ import semicolonLogo from '../../public/hero/semicolonLogo.png';
 import leftArrow from '../../public/hero/leftArrow.png';
 import IconWithText from "@/component/iconWithText";
 import rightArrow from '../../public/hero/rightArrow.png';
+import ButtonProps from "@/component/button";
 export default function HeroPage(){
     return(
         <div className='flex '>
@@ -17,7 +18,7 @@ export default function HeroPage(){
                 </div>
                 <div className='flex ml-[8%] p-3 pl-0'>
                     <Image src={leftArrow} alt='leftArrow'/>
-                    <button>Back</button>
+                    <ButtonProps word={'back'} className=''/>
                 </div>
                 <h1 className='ml-[8%] font-semibold  text-4xl mt-8'>Business Leadership</h1>
                 <div className={'ml-[8%] flex gap-5 mt-8'}>
@@ -29,7 +30,7 @@ export default function HeroPage(){
                 </div>
 
                 <div className={'ml-[8%] flex gap-4 mt-12 p-3 pl-0 '}>
-                    <button className='bg-white rounded text-black px-6 py-2  text-lg'>Apply Now</button>
+                    <ButtonProps word={'Apply Now'} className='bg-white rounded text-black px-6 py-2  text-lg'/>
                     <p className="  mt-2.5">5,000 students already enrolled</p>
                 </div>
             </div>
