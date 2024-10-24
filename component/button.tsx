@@ -1,10 +1,11 @@
 import React from "react";
 import {ButtonProps} from '../types/types'
 
-const Button: React.FC<ButtonProps> = ({ word,className}) => {
+const Button: React.FC<ButtonProps> = ({ icon,word,className}) => {
     return (
         <div className={` ${className}`}>
-            <button>{word}</button>
+            <image className={`${icon}`}></image>
+            <button className={`${icon}`}>{word}</button>
         </div>
     );
 };

@@ -1,5 +1,5 @@
 import React from 'react';
-import henleyBusinessSchoolImage from '../public/partners/henleyBusinesSchoolbadge.png';
+import henleyBusinessSchoolImage from '@/public/landingPagePaid/partners/henleyBusinesSchoolbadge.png';
 import IconWithText from "@/component/iconWithText";
 import {Icon} from '@iconify/react';
 const Partners=()=>{

@@ -1,15 +1,15 @@
-import rightArrow from "@/public/hero/rightArrow.png";
+import rightArrow from "@/public/landingPagePaid/hero/rightArrow.png";
 import Image from "next/image";
-import leftArrow from "@/public/hero/leftArrow.png";
-import semicolonLogo from "@/public/hero/semicolonLogo.png";
-import heroImage from "@/public/hero/heroImage.png";
+import leftArrow from "@/public/landingPagePaid/hero/leftArrow.png";
+import semicolonLogo from "@/public/landingPagePaid/hero/semicolonLogo.png";
+import heroImage from "@/public/landingPagePaid/hero/heroImage.png";
 import React from "react";
 import IconWithText from "@/component/iconWithText";
 import Button from "@/component/button";
 
 const Hero=()=>{
     return (
-        <div className='flex '>
+        <div className='flex mt-6   '>
             <div className='w-[60%] bg-blue-800 '>
                 <div className='flex pb-2 pt-5 ml-[8%]'>
                     <IconWithText word='Programs'/>
@@ -19,7 +19,7 @@ const Hero=()=>{
                 </div>
                 <div className='flex ml-[8%] p-3 pl-0'>
                     <Image src={leftArrow} alt='leftArrow'/>
-                    <Button word={'back'} className=''/>
+                    <Button icon={leftArrow} word={'back'} className=''/>
                 </div>
                 <h1 className='ml-[8%] font-semibold  text-4xl mt-8'>Business Leadership</h1>
                 <div className={'ml-[8%] flex gap-5 mt-8'}>

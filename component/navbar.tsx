@@ -1,14 +1,14 @@
 import Image from "next/image";
 import {Icon} from "@iconify/react";
 import React from "react";
-import enumImage from '../public/navbar/enumImage.png';
-import Ellipse from '../public/navbar/ellipse.png';
+import enumImage from '@/public/landingPagePaid/navbar/enumImage.png';
+import Ellipse from '@/public/landingPagePaid/navbar/ellipse.png';
 
 
 const Navbar =()=>{
     return (
-        <div className='p-1'>
-            <div className='flex justify-between mt-1 ml-[4%] mr-[4%] mb-5 '>
+        <div className='p-0.5 border-b-2 '>
+            <div className='flex justify-between mt-1 ml-[4%] mr-[4%] mb-2 '>
                 <Image src={enumImage} alt='Enum Image' className=''/>
                 <div className='relative flex items-center'>
                     <Icon icon="mynaui:search" className={'absolute left-[285px] m-2 w-4 text-black'}/>
