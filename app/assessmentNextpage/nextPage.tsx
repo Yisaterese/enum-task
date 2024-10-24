@@ -27,7 +27,7 @@ export default function NextPage() {
                         <p className={'text-[12px] font-[500] leading-[15.62px] tracking-[10%]'}>TOTAL UNANSWERED: 3</p>
                     </div>
                     <div className={'flex '}>
-                        <div className={'text-black w-[50%] h-[380px] mt-10'}>
+                        <div className={'text-black text-[15px] w-[50%] h-[380px] mt-10'}>
                             <p>Which of the following best describes the current
                                 art scene in Nigeria and Sub-Saharan bearing in mind that Buhari is an
                                 artist and said that Picasso is Igbo and
