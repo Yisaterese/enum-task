@@ -1,7 +1,6 @@
 import React from 'react';
 import Button from "@/component/button";
 import {Icon} from '@iconify/react';
-import colouredShapes from '../../public/takeAssessment/colouredShapes.png';
 import Image from 'next/image';
 import letterA from '../../public/takeAssessment/letterA.png';
 import letterB from '../../public/takeAssessment/letterA.png';
