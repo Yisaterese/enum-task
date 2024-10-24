@@ -12,23 +12,22 @@ import timeImage from '../../public/takeAssessment/timeImage.png';
 export default function NextPage() {
     return(
         <div>
-            <div className={'mx-[350px] mb-10'}>
+            <div className={'mx-[200px] mb-5'}>
                 <div className='flex p-3 pl-0 text-black'>
                     <Icon icon={'tabler:arrow-left'} className={'w-[24px] h-[24px] text-black'}/>
                     <Button word={'back'} className='w-[32px ] h-[24px] font-[400] text-[14px] leading-[24px]'/>
                 </div>
 
-
-                <div className="relative flex items-center pt-[150px]">
-                    <div className="absolute flex items-center top-[10px] left-[905px] transform -translate-x-1/2">
+                <div className="relative flex items-center pt-[100px]">
+                    <div className="absolute flex items-center top-[3px] left-[763px] transform -translate-x-1/2">
                         <Image src={timeImage} alt="timeImage" className="w-[100px] h-[60px] text-black"/>
                         <div
-                            className="flex flex-col items-center text-black font-[500] text-[14px] leading-[18px] tracking-[2%] ml-4">
+                            className="flex flex-col items-center text-black font-[500] text-[14px] leading-[18px] tracking-[2%] gap-2 py-1 ml-3">
                             <h1 className="text-blue-500">Hide</h1>
                             <p>09:52</p>
                         </div>
                     </div>
-                    <div className="absolute flex items-center top-[20px] left-[900px] transform -translate-x-1/2">
+                    <div className="absolute flex items-center top-[15px] left-[760px] transform -translate-x-1/2">
                         <div className="flex text-white">
                             <Icon icon={'mdi-light:clock'}/>
                             <div className="flex-col ml-2">
@@ -39,7 +38,10 @@ export default function NextPage() {
                     </div>
                 </div>
 
-                <p className={'border border-blue-500  '}></p>
+                {/*blue line*/}
+                <p className={'border border-blue-500  mb-5'}></p>
+
+
                 <div>
                     <div className={'text-black flex justify-between'}>
                         <div>
