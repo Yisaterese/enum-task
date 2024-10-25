@@ -4,7 +4,7 @@ import IconWithText from "@/component/iconWithText";
 import {Icon} from '@iconify/react';
 const Partners=()=>{
     return(
-        <div className={'mt-8  '}>
+        <div className={'mt-8  mb-4 '}>
             <div className={'flex gap-2 ml-[5%] mr-[5%]'}>
                 <p className={'text-black m-3  mr-0 ml-0'}>Partners:</p>
                 <Icon icon="fluent:chevron-left-24-filled" className={'text-black h-5 w-5 mt-3 '}/>

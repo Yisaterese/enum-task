@@ -11,3 +11,15 @@ export type ButtonProps={
     word:string;
     className?: string;
 }
+
+export type RatingProps ={
+    applicationFee: string;
+    programFee: string;
+    button: string;
+    classname?: string;
+}
+
+export type AssessmentGrantedProps ={
+    image?: StaticImageData;
+    text: string;
+}

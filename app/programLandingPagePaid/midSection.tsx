@@ -294,7 +294,7 @@ export default function MidSection(){
             </div>
 
             <div className={'w-[30%] pt-8 pl-4 pr-10'}>
-               <Rating/>
+               <Rating programFee={'₦10,000.00'} applicationFee={'₦840,000.00'} button={'Apply Now'}/>
             </div>
         </div>
     );
