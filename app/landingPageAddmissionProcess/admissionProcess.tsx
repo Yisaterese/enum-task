@@ -1,12 +1,12 @@
 
 import React from 'react';
 import Rating from '../../component/rating';
-import AssessmentGranted from "@/component/assessmentGranted";
+import AssessmentProcess from "@/component/assessmentProcess";
 import assessmentGrantedIcon from "../../public/takeAssessment/assessmentGrantedIcon.png";
 export default function MidSection(){
     return(
         <div >
-            <AssessmentGranted image={assessmentGrantedIcon} text={'Processing your Application'} />
+            <AssessmentProcess image={assessmentGrantedIcon} text={'Processing your Application'} />
             <div className={'flex border-t-2 mt-4'}>
                 <div className={'w-[68%] border-r-2 '}>
                     <div className={'flex gap-3 mt-[50px] text-black ml-[7%]'}>

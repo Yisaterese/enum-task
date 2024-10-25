@@ -22,4 +22,5 @@ export type RatingProps ={
 export type AssessmentGrantedProps ={
     image?: StaticImageData;
     text: string;
+    style?:string;
 }
