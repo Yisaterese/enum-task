@@ -51,10 +51,10 @@ export default function AdmissionGranted(){
                         </div>
                     </div>
 
-                    <div className={'w-[30%] pt-8 pl-4 pr-10'}>
+                    <div className={'w-[30%] pt-8 pl-4 pr-10 pb-[70px]'}>
                         <Rating applicationFee={'Paid'} programFee={'₦840,000.00'}
                                 button={'Processes to payment'}
-                                classname={'text-[14px]'}/>
+                                classname={'text-[14px] '}/>
                     </div>
                 </div>
 

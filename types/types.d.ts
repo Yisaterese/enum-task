@@ -24,3 +24,11 @@ export type AssessmentGrantedProps ={
     text: string;
     style?:string;
 }
+
+export type PaymentProps={
+    leadershipProgramFee:string;
+    subtotal:string;
+    leadershipProgramText:string;
+    couponDiscount:string;
+    total:string;
+}
