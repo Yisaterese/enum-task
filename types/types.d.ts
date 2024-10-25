@@ -32,3 +32,7 @@ export type PaymentProps={
     couponDiscount:string;
     total:string;
 }
+
+export type ConfirmPaymentProps ={
+    text: string;
+}
