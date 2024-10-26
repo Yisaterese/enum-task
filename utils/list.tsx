@@ -1,13 +1,13 @@
 import image1 from '../public/programs/image/image1.png'
-import image2 from '../public/programs/image/image1.png'
-import image3 from '../public/programs/image/image1.png'
-import image4 from '../public/programs/image/image1.png'
-import image5 from '../public/programs/image/image1.png'
-import image6 from '../public/programs/image/image1.png'
-import image7 from '../public/programs/image/image1.png'
-import image8 from '../public/programs/image/image1.png'
-import image9 from '../public/programs/image/image1.png'
-import image10 from '../public/programs/image/image1.png'
+import image2 from '../public/programs/image/image2.png'
+import image3 from '../public/programs/image/image3.png'
+import image4 from '../public/programs/image/image4.png'
+import image5 from '../public/programs/image/image5.png'
+import image6 from '../public/programs/image/image6.png'
+import image7 from '../public/programs/image/image7.png'
+import image8 from '../public/programs/image/image8.png'
+import image9 from '../public/programs/image/image9.png'
+import image10 from '../public/programs/image/image10.png'
 import logo1 from '../public/programs/logo/semicolonLogo.png';
 import logo2 from '../public/programs/logo/ihsLogo.png';
 import logo3 from '../public/programs/logo/alatLogo.png';
@@ -23,6 +23,7 @@ export const InstructionList =[
     'You will see a time notice when you have 10 minutes left for the test.',
     'If the test can be retaken, your latest score will be the score used.'
 ]
+
 
 
 export const ProgramImageList=[

@@ -12,7 +12,7 @@ export type ButtonProps={
     className?: string;
 }
 
-export type RatingProps ={
+export interface RatingProps {
     applicationFee: string;
     programFee: string;
     button: string;
