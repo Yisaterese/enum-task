@@ -7,7 +7,7 @@ import heroImage from "@/public/landingPagePaid/hero/heroImage.png";
 import {Icon} from '@iconify/react';
 import Button from "@/component/button";
 
-export default function Hero(){
+const Hero=()=>{
     return (
         <div>
             <div className="flex" style={{height:'380px'}}>
@@ -54,4 +54,4 @@ export default function Hero(){
         </div>
     );
 }
-
+export default Hero;
