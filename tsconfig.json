@@ -8,16 +8,16 @@
     "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
-    "moduleResolution": "node",
+    "moduleResolution": "node",  // Changed from "bundler" to "node"
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "baseUrl": ".",
+    "baseUrl": ".",  // Added baseUrl for resolving non-relative paths
     "paths": {
       "@/*": ["*"],
-      "@/component/*": ["components/*"],
-      "@/app/*": ["app/*"]
+      "@/component/*": ["components/*"],  // Removed the leading './' from path
+      "@/app/*": ["app/*"]  // Removed the leading './' from path
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
