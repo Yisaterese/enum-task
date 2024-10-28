@@ -1,5 +1,4 @@
 import Navbar from "../../component/navbar";
-
 import React from "react";
 import Payment from "../../app/applicationFeePayment/payment";
 
