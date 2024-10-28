@@ -1,15 +1,14 @@
 import React from "react";
 import Image from "next/image";
-import leftArrow from "@/public/landingPagePaid/hero/leftArrow.png";
-import semicolonLogo from "@/public/landingPagePaid/hero/semicolonLogo.png";
-import heroImage from "@/public/landingPagePaid/hero/heroImage.png";
+import leftArrow from "../public/landingPagePaid/hero/leftArrow.png";
+import semicolonLogo from "../public/landingPagePaid/hero/semicolonLogo.png";
+import heroImage from "../public/landingPagePaid/hero/heroImage.png";
 import { Icon } from '@iconify/react';
-import Button from "@/component/button";
-// import styles from '../styles/styles.module.css';
+import Button from "../component/button";
 
 const Hero = () => {
     return (
-        <div className="flex flex-col lg:flex-row" style={{ height: 'auto', minHeight: '380px' }}>
+        <div className="flex  lg:flex-row" style={{ height: 'auto', minHeight: '380px' }}>
             <div className="w-full lg:w-[60%]" style={{ backgroundColor: '#2938B6' }}>
                 <div className={` flex xsm:text-[8px] flex-wrap ml-[5%] lg:ml-[50px] text-white mt-4 lg:mt-6 px-[8%] lg:px-0`}>
                     <div className="flex items-center mr-2">
