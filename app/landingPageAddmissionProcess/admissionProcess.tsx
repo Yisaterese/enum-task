@@ -48,7 +48,7 @@ export default function MidSection(){
 
                 <div className={'w-[30%] pt-8 pl-4 pr-10'}>
                     <Rating applicationFee={'Paid'} programFee={'₦840,000.00'} button={'Processing your Application'}
-                            classname={'text-[14px]'} />
+                            classname={'text-[14px]'} link={''}/>
                 </div>
             </div>
 

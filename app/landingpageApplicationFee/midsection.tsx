@@ -31,7 +31,12 @@ export default function ApplicationFeeMidsection(){
             </div>
             <div className={'w-[30%] pt-8 pl-4 pr-10'}>
                 <div className={'mb-10'}>
-                    <Rating />
+                    <Rating
+                        applicationFee={'₦10,000.00'}
+                        programFee={'₦840,00.00'}
+                        button={'Proceed to Payment'}
+                        classname={''}
+                        link={'/payment'}/>
                 </div>
             </div>
         </div>

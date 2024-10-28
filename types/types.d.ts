@@ -17,6 +17,7 @@ export interface RatingProps {
     programFee: string;
     button: string;
     classname?: string;
+    link: string,
 }
 
 export type AssessmentGrantedProps ={

@@ -1,12 +1,12 @@
 import React from 'react';
-import Button from "@/component/button";
+import Button from "../../component/button";
 import {Icon} from '@iconify/react';
 import colouredShapes from  '../../public/takeAssessment/colouredShapes.png';
 import Image from 'next/image';
 import letterA from '../../public/takeAssessment/letterA.png';
-import letterB from '../../public/takeAssessment/letterA.png';
-import letterC from '../../public/takeAssessment/letterA.png';
-import letterD from '../../public/takeAssessment/letterA.png';
+import letterB from '../../public/takeAssessment/letterB.png';
+import letterC from '../../public/takeAssessment/letterC.png';
+import letterD from '../../public/takeAssessment/letterD.png';
 
 export default function AssessmentPage() {
     return(
@@ -30,13 +30,15 @@ export default function AssessmentPage() {
                         <div className={'text-black w-[440px] h-[380px]'}>
                             <p className={'text-black w-[440px] h-[20px] my-3'}>How many sides does the yellow polygon
                                 have?</p>
-                            <Image src={colouredShapes} alt={'clouredShapes'} className={'w-[300px] h-[300px]'}/>
+                            <Image src={colouredShapes} alt={'clouredShapes'} width={300} height={300}/>
                         </div>
 
 
                         <div className={'ml-10 mt-[45px] w-full text-black'}>
                             <div className='flex p-2   p-3 pl-0 text-black rounded-lg border-2 mb-3'>
-                                <Image src={letterA} alt={'letterA'} className={'w-[24px] ml-2 h-[24px] text-black'}/>
+                                <div  className={' ml-2  text-black'}>
+                                    <Image src={letterA} alt={'letterA'} width={24} height={24}/>
+                                </div>
                                 <Button word={'4 '}
                                         className='w-[32px ] h-[18px]font-[400] text-[14px] leading-[24px]'/>
                             </div>

@@ -1,8 +1,11 @@
+'use client';
 import {Icon} from "@iconify/react";
+import React from "react";
 import Button from "@/component/button";
 import heroImage from '@/public/landingPagePaid/hero/heroImage.png';
 import paystack from '../../public/applicationFeepayment/payment/paystack.png'
 import creditCard from '../../public/applicationFeepayment/payment/creditCard.png'
+import Image from 'next/image';
 export default function Payment(){
     return (
         <div>
@@ -16,13 +19,13 @@ export default function Payment(){
                     <div className={'flex-col mt-8 mx-[55px]'}>
                         <p className={'text-black text-xs mb-5'}>DETAILS</p>
                         <div className={'flex gap-4 mb-8'}>
-                            <Image src={heroImage} alt={'heroImage'} className={'w-[120px] h-[72px]'}/>
+                                <Image src={heroImage} alt="heroImage" width={120} height={72} className="object-cover" />
                             <div className={'text-black mb-3 flex  justify-between w-full'}>
                                 <div className={'my-4'}>
                                     <p className={'text-xs font-bold'}>Business Leadership - Application Fee</p>
                                     <h1 className={'text-[10px] mb-3'}>by Semicolon Africa</h1>
                                 </div>
-                                <p className={'text-blue-500 my-4 font-bpld'}> ₦ 10,000</p>
+                                <p className={'text-blue-500 my-4 font-bold'}> ₦ 10,000</p>
                             </div>
                         </div>
                         <div className="border-b-2 border-dashed border-[#EDF2F5] w-full mb-5"></div>
@@ -30,7 +33,9 @@ export default function Payment(){
                         <div className={'flex justify-between text-black mb-8'}>
                             <Image src={paystack} alt={'payStack'} className={'flex gap-2 border border-blue-500 py-2 px-5 rounded'}/>
                             <div className={'flex gap-2 border-2 py-2 px-5 rounded'}>
-                                <Image src={creditCard} alt={'creditCard'} className={'w-5 h-5'}/>
+                                <div className={'w-5 h-5'}>
+                                    <Image src={creditCard} alt={'creditCard'}/>
+                                </div>
                                 <Button word={'Debit card'} className={''}/>
                             </div>
                             <div className={'flex gap-2 border-2 py-2 px-5 rounded'}>
@@ -56,9 +61,9 @@ export default function Payment(){
                             </div>
                             <div className="mb-4">
                                 <div className="flex-col  text-xs justify-between">
-                                    <p className={'text-blue-500'}>Business Leadership Application <p>Fee</p> </p>
+                                    <p className={'text-blue-500'}>Business Leadership Application <span>Fee</span></p>
                                     <div className={'flex justify-between'}>
-                                        <h1>Subtotal</h1>
+                                    <h1>Subtotal</h1>
                                         <h1>₦12,000</h1>
                                     </div>
                                 </div>
@@ -92,5 +97,3 @@ export default function Payment(){
     );
 }
 
-import React from "react";
-import Image from "next/image";

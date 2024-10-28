@@ -1,8 +1,9 @@
 import { Icon } from "@iconify/react";
 import React from "react";
 import { RatingProps } from "../types/types";
+import Link from 'next/link';
 
-const Rating: React.FC<RatingProps> = ({ applicationFee, programFee, button, classname}) => {
+const Rating: React.FC<RatingProps> = ({ applicationFee, programFee, button, classname,link}) => {
     return (
         <div className={`rounded mt-4 ml-5 mr-6`}>
             <div className="" style={{ color: '#b3e2ef' }}>
@@ -27,17 +28,19 @@ const Rating: React.FC<RatingProps> = ({ applicationFee, programFee, button, cla
                                 <p className="text-xl font-bold text-blue-500 mb-3">{programFee}</p>
                                 <p style={{textDecoration:'line-through', color:'#9CABB5',fontSize:'12px',paddingTop:'5px'}}>₦1,200,000.00</p>
                             </div>
-                            <button className={`bg-blue-500 text-white py-2  rounded hover:bg-blue-600  ${classname}`} style={{
-                                    paddingLeft:'16px',
-                                    paddingRight:'16px',
-                                    width:'100%'
-                            }
-                            }>
-                                {button}
-                            </button>
+                            <Link href={link}>
+                                <button className={`bg-blue-500 text-white py-2  rounded hover:bg-blue-600  ${classname}`} style=
+                                    {{
+                                        paddingLeft:'16px',
+                                        paddingRight:'16px',
+                                        width:'100%'
+                                    }}>{button}
+                                </button>
+                            </Link>
                         </div>
                         <div style={{ alignItems: 'center',}}>
-                            <button className="text-blue-500  " style={{
+                            <Link href={link}>
+                                <button className="text-blue-500  " style={{
                                 width: '100%',
                                 marginTop: '12px',
                                 paddingLeft: '16px',
@@ -45,10 +48,10 @@ const Rating: React.FC<RatingProps> = ({ applicationFee, programFee, button, cla
                                 paddingTop: '8px',
                                 paddingBottom: '8px',
                                 fontSize: '12px',
-
                             }}>
                                 View Application Process
                             </button>
+                            </Link>
                         </div>
 
                     </div>

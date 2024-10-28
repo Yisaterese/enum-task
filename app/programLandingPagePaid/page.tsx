@@ -1,15 +1,11 @@
-import Navbar from '../../component/navbar';
-import Hero from "@/component/hero";
-import Partners from "@/app/programLandingPagePaid/partners";
-import MidSection from "@/app/programLandingPagePaid/midSection";
+
+import ProgramLandingPagePaid from "@/app/programLandingPagePaid/programLandingpagePaid";
 
 export default function  Page() {
     return(
         <div>
-            <Navbar/>
-            <Hero/>
-            <Partners/>
-            <MidSection/>
+            <ProgramLandingPagePaid/>
+
         </div>
     );
 }

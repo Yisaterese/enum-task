@@ -1,5 +1,5 @@
 import React from 'react';
-import Programs from "@/component/programs";
+import Programs from "@/component/programs/programs";
 import Navbar from "@/component/navbar";
 import ProgramPage from "@/app/programs/programs";
 
