@@ -1,7 +1,7 @@
 import React from 'react';
-import AssessmentProcess from "@/component/assessmentProcess";
+import AssessmentProcess from "../../component/assessmentProcess";
 import infoIcon from "../../public/takeAssessment/infoIcon.png";
-import Rating from "@/component/rating";
+import Rating from "../../component/rating";
 export default function AdmissionGranted(){
     return(
         <div>

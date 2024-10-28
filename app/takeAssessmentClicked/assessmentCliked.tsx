@@ -1,9 +1,9 @@
 import React from 'react';
-import Navbar from "@/component/navbar";
-import Hero from "@/component/hero";
-import Partners from "@/component/partners";
-import Instructions from "@/component/intsructions";
-import Button from "@/component/button";
+import Navbar from "../../component/navbar";
+import Hero from "../../component/hero";
+import Partners from "../../component/partners";
+import Instructions from "../../component/intsructions";
+import Button from "../../component/button";
 import checkbox from '../../public/takeAssessment/checkbox.png';
 import Image from 'next/image';
 export default function TakeAssessmentClicked() {

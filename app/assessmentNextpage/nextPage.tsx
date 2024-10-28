@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import Button from "@/component/button";
+import Button from "../../component/button";
 import {Icon} from '@iconify/react';
 import Image from 'next/image';
 import letterA from '../../public/takeAssessment/letterA.png';

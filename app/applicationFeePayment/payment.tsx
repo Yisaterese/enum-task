@@ -1,8 +1,8 @@
 'use client';
 import {Icon} from "@iconify/react";
 import React from "react";
-import Button from "@/component/button";
-import heroImage from '@/public/landingPagePaid/hero/heroImage.png';
+import Button from "../../component/button";
+import heroImage from '../../public/landingPagePaid/hero/heroImage.png';
 import paystack from '../../public/applicationFeepayment/payment/paystack.png'
 import creditCard from '../../public/applicationFeepayment/payment/creditCard.png'
 import Image from 'next/image';

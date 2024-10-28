@@ -1,12 +1,12 @@
 import React from 'react';
-import Button from "@/component/button";
+import Button from "../../component/button";
 import { Icon } from '@iconify/react';
 import Image from 'next/image';
 import letterA from '../../public/takeAssessment/letterA.png';
 import letterB from '../../public/takeAssessment/letterA.png';
 import letterC from '../../public/takeAssessment/letterA.png';
 import letterD from '../../public/takeAssessment/letterA.png';
-import submitAssessmentImage from "@/public/takeAssessment/submitAssessmentImage.png";
+import submitAssessmentImage from "../../public/takeAssessment/submitAssessmentImage.png";
 import timeImage from '../../public/takeAssessment/timeImage.png';
 
 export default function NextPage() {

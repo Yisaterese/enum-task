@@ -1,5 +1,5 @@
 
-import ProgramLandingPagePaid from "@/app/programLandingPagePaid/programLandingpagePaid";
+import ProgramLandingPagePaid from "../../app/programLandingPagePaid/programLandingpagePaid";
 
 export default function  Page() {
     return(

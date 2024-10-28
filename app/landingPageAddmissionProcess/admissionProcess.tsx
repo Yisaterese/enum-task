@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Rating from '../../component/rating';
-import AssessmentProcess from "@/component/assessmentProcess";
+import AssessmentProcess from "../../component/assessmentProcess";
 import assessmentGrantedIcon from "../../public/takeAssessment/assessmentGrantedIcon.png";
 export default function MidSection(){
     return(

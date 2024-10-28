@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from "@/component/button";
+import Button from "../../component/button";
 import { Icon } from '@iconify/react';
 import colouredShapes from '../../public/takeAssessment/colouredShapes.png';
 import letterA from '../../public/takeAssessment/letterA.png';

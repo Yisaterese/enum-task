@@ -1,5 +1,5 @@
 import React from "react";
-import Rating from "@/component/rating";
+import Rating from "../../component/rating";
 
 export default function ApplicationFeeMidsection(){
     return(

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import enumImage from '@/public/landingPagePaid/navbar/enumImage.png';
-import Button from "@/component/button";
+import enumImage from '../../public/landingPagePaid/navbar/enumImage.png';
+import Button from "../../component/button";
 
 
 const AssessmentNavbar =()=>{

@@ -1,4 +1,4 @@
-import Navbar from "@/component/navbar";
+import Navbar from "../../component/navbar";
 import React from 'react';
 export default function  ApplicationFeeNavbar(){
     return(

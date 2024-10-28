@@ -1,5 +1,5 @@
-import instructorImage from '@/public/landingPagePaid/midSection/instructorImage.png';
-import liveVideoImage from '@/public/landingPagePaid/midSection/liveVideoImage.png';
+import instructorImage from '../../public/landingPagePaid/midSection/instructorImage.png';
+import liveVideoImage from '../../public/landingPagePaid/midSection/liveVideoImage.png';
 import {Icon} from '@iconify/react';
 import React from 'react';
 import Image from 'next/image';
