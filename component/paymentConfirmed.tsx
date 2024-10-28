@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from "next/image";
 import SuccessIcon from '../public/confirmPayment/SuccessIcon.png';
-import Button from "@/component/button";
-import {ConfirmPaymentProps} from "@/types/types";
+import Button from "../component/button";
+import {ConfirmPaymentProps} from "../types/types";
 const ConfirmPayment:React.FC<ConfirmPaymentProps>=({text})=>{
     return(
         <div className={'px-[400px] justify-items-center'}>
