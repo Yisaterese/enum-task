@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from "next/link";
-import {ProgramImageList} from "@/utils/list";
+import {ProgramImageList} from "../../utils/list";
 
 const ProgramsPages = () => {
     return (
