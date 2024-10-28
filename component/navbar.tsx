@@ -2,7 +2,7 @@
     import {Icon} from "@iconify/react";
     import React from "react";
     import enumImage from '../public/landingPagePaid/navbar/enumImage.png';
-    import Ellipse from '../public/landingPagePaid/navbar/ellipse.png';
+    import Ellipse from '../public/landingPagePaid/navbar/Ellipse.png';
 
 
     const Navbar =()=>{
