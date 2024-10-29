@@ -3,7 +3,8 @@ import Image from "next/image";
 import SuccessIcon from '../public/confirmPayment/SuccessIcon.png';
 import Button from "../component/button";
 import {ConfirmPaymentProps} from "../types/types";
-const ConfirmPayment:React.FC<ConfirmPaymentProps>=({text})=>{
+import Link from 'next/link';
+const ConfirmPayment:React.FC<ConfirmPaymentProps>=({text,link})=>{
     return(
         <div className={'px-[400px] justify-items-center'}>
             <div className={'  my-[100px] mb-8 mt-[70px]'}>
@@ -16,7 +17,9 @@ const ConfirmPayment:React.FC<ConfirmPaymentProps>=({text})=>{
                     Assessment link or click the button below.
                 </p>
                 </p>
-                <Button word={text} className='bg-blue-600 rounded text-white px-2 py-2  text-[13px]'/>
+                <Link href={link}>
+                    <Button word={text} className='bg-blue-600 rounded text-white px-2 py-2  text-[13px]'/>
+                </Link>
 
             </div>
         </div>

@@ -41,4 +41,5 @@ export type PaymentProps={
 
 export type ConfirmPaymentProps ={
     text: string;
+    link: string;
 }
