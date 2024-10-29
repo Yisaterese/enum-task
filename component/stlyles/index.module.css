@@ -1,4 +1,4 @@
-    .heroMidsectionPrograms{
+.heroMidsectionPrograms{
         @media (max-width: 639px) {
             .text-small {
                 font-size: 8px;
@@ -6,3 +6,9 @@
         }
 
     }
+
+.heroContainer{
+    @media (max-width: 639px) {
+
+    }
+}
