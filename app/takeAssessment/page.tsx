@@ -7,7 +7,7 @@ export default function  Page(){
     return(
         <div>
             <Navbar />
-            <Hero/>
+            <Hero path={'/assessmentPage'} buttonText={'Begin Assessment'}/>
             <Partners/>
             <AssessmentPage/>
         </div>
