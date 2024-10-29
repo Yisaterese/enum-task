@@ -10,7 +10,7 @@ export default function TakeAssessmentClicked() {
     return(
         <div>
             <Navbar/>
-            <Hero/>
+            <Hero path={'/assessmentPage'} buttonText={'Begin Assessment'}/>
             <Partners/>
             <div>
                 <div className='my-8 text-black'>
