@@ -1,5 +1,5 @@
 import Navbar from "../../component/navbar";
-import PaymentConfirmedWorkspacePage from "../../app/paymentConfirmedWorkspace/paymentConfirmedWorkspace";
+import PaymentConfirmedWorkspacePage from "./paymentConfirmedProceedToWorkspace";
 
 export default function Page(){
     return(
