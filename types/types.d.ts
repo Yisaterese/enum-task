@@ -12,6 +12,10 @@ export type ButtonProps={
     className?: string;
 }
 
+export type HeroPageProps ={
+    path:string;
+    buttonText:string;
+}
 export interface RatingProps {
     applicationFee: string;
     programFee: string;
@@ -32,6 +36,7 @@ export type PaymentProps={
     leadershipProgramText:string;
     couponDiscount:string;
     total:string;
+    path:string;
 }
 
 export type ConfirmPaymentProps ={

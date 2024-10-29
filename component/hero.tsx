@@ -6,8 +6,9 @@ import heroImage from "../public/landingPagePaid/hero/heroImage.png";
 import { Icon } from '@iconify/react';
 import Button from "../component/button";
 import Link from "next/link";
+import {HeroPageProps} from "@/types/types";
 
-const Hero = () => {
+const Hero:React.FC<HeroPageProps> = ({path,buttonText}) => {
     return (
         <div className={` flex lg:flex-row`} style={{  }}>
             <div className=' ' style={{ backgroundColor: '#2938B6' ,width:'60%'}}>
@@ -50,8 +51,8 @@ const Hero = () => {
 
                 <div className="flex items-center pb-3 gap-4 ml-[5%] lg:ml-[7%] mt-8">
 
-                    <Link href={''}>
-                        <Button word="Apply Now" className="bg-white rounded p-2 h-[48px] lg:h-[132px] text-black px-4 lg:px-6 py-2 text-sm" />
+                    <Link href={path}>
+                        <Button word={buttonText} className="bg-white rounded p-2 h-[48px] lg:h-[132px] text-black px-4 lg:px-6 py-2 text-sm" />
                     </Link>
 
                     <p className="mt-2 text-[14px] lg:text-[16px]  lg:w-[265px] h-[21px]">

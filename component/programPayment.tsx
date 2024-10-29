@@ -6,7 +6,8 @@ import creditCard from '../public/applicationFeepayment/payment/creditCard.png'
 import React from "react";
 import Image from "next/image";
 import {PaymentProps} from "@/types/types";
-const  Payment:React.FC<PaymentProps>= ({leadershipProgramFee, subtotal,leadershipProgramText, couponDiscount, total})=>{
+import Link from 'next/link';
+const  Payment:React.FC<PaymentProps>= ({path,leadershipProgramFee, subtotal,leadershipProgramText, couponDiscount, total})=>{
     return (
         <div>
             <div className={'flex  ml-[150px] '}>
@@ -76,11 +77,13 @@ const  Payment:React.FC<PaymentProps>= ({leadershipProgramFee, subtotal,leadersh
                                 <p className={'text-blue-500'}>{total}</p>
                             </div>
                             <p className={'text-[10px] mt-2'}>Enum is required by law to collect applicable transaction taxes.</p>
-                            <div className="text-center mt-6">
-                                <button className="bg-blue-500 text-white w-full py-2 rounded hover:bg-blue-600">Make
+                           <Link href={path}>
+                                <div className="text-center mt-6">
+                                    <button className="bg-blue-500 text-white w-full py-2 rounded hover:bg-blue-600">Make
                                     Payment
                                 </button>
                             </div>
+                           </Link>
                             <p className="mt-4 text-[10px] text-gray-600">By completing your purchase, you agree
                                 to these <span className={' text-[#CCB0FB]'}>Terms of Service.</span></p>
                         </div>

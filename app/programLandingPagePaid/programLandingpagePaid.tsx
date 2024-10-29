@@ -7,7 +7,7 @@ export default function  ProgramLandingPagePaid() {
     return(
         <div>
             <Navbar/>
-            <Hero/>
+            <Hero path={'/landingpageApplicationFee'} buttonText={'Apply Now'}/>
             <Partners/>
             <MidSection/>
         </div>

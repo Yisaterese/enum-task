@@ -36,7 +36,7 @@ export default function ApplicationFeeMidsection(){
                         programFee={'₦840,00.00'}
                         button={'Proceed to Payment'}
                         classname={''}
-                        link={'/payment'}/>
+                        link={'/makePaymentProgram'}/>
                 </div>
             </div>
         </div>

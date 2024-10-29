@@ -50,7 +50,7 @@ const Rating: React.FC<RatingProps> = ({ applicationFee, programFee, button, cla
                                 fontSize: '12px',
                             }}>
                                 View Application Process
-                            </button>
+                                </button>
                             </Link>
                         </div>
 
