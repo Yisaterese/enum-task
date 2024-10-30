@@ -7,19 +7,23 @@ import letterA from '../../public/takeAssessment/letterA.png';
 import letterB from '../../public/takeAssessment/letterB.png';
 import letterC from '../../public/takeAssessment/letterC.png';
 import letterD from '../../public/takeAssessment/letterD.png';
+import  Link  from 'next/link';
 
 export default function NextPage() {
     return(
         <div>
             <div className={'mx-[200px] mb-10'}>
-                <div className='flex  p-3 pl-0 text-black'>
-                    <Icon icon={'tabler:arrow-left'} className={'w-[24px] h-[24px] text-black'}/>
-                    <Button word={'back'} className='w-[32px ] h-[24px]  font-[400] text-[14px] leading-[24px]'/>
-                </div>
+                <Link href={'/assessmentPage'}>
+                    <div className='flex  p-3 pl-0 text-black'>
+                        <Icon icon={'tabler:arrow-left'} className={'w-[24px] h-[24px] text-black'}/>
+                        <Button word={'back'} className='w-[32px ] h-[24px]  font-[400] text-[14px] leading-[24px]'/>
+                    </div>
+                </Link>
+
                 <p className={'absolute w-[38px] h-[16px] top-[107px] left-[1011px] text-black font-[500] text-[12px] leading-[15.62px] tracking-[2%]'}>09:52</p>
                 <p className={'border border-blue-500 my-[50px] '}></p>
                 <div>
-                    <div className={'text-black flex justify-between'}>
+                <div className={'text-black flex justify-between'}>
                         <div>
                             <p className={'h-[31px] w-[527px] font-[600] text-[20px]  leading-[31.2px] tracking-[-2]'}>Business Management Application Assessment</p>
                             <p className={'text-[#6E7EA8] h-[28px] w-[151px] text-[14px] font-[400] leading-[28px]'}>4 Questions · 5 mins</p>

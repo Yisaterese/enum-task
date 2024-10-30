@@ -15,6 +15,7 @@ export type ButtonProps={
 export type HeroPageProps ={
     path:string;
     buttonText:string;
+    heroBackButton:string;
 }
 export interface RatingProps {
     applicationFee: string;

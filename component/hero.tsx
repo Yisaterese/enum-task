@@ -8,7 +8,7 @@ import Button from "../component/button";
 import Link from "next/link";
 import {HeroPageProps} from "@/types/types";
 
-const Hero:React.FC<HeroPageProps> = ({path,buttonText}) => {
+const Hero:React.FC<HeroPageProps> = ({path,buttonText,heroBackButton}) => {
     return (
         <div className={` flex lg:flex-row`} style={{  }}>
             <div className=' ' style={{ backgroundColor: '#2938B6' ,width:'60%'}}>
@@ -32,7 +32,7 @@ const Hero:React.FC<HeroPageProps> = ({path,buttonText}) => {
 
                 <div className="flex items-center p-2 mt-4 ml-[5%] lg:ml-[7%]">
                     <Image src={leftArrow} alt="leftArrow" />
-                    <Link href={''}>
+                    <Link href={heroBackButton}>
                         <Button icon={leftArrow} word="back" className="ml-2" />
                     </Link>
                 </div>

@@ -8,15 +8,18 @@ import letterC from '../../public/takeAssessment/letterA.png';
 import letterD from '../../public/takeAssessment/letterA.png';
 import submitAssessmentImage from "../../public/takeAssessment/submitAssessmentImage.png";
 import timeImage from '../../public/takeAssessment/timeImage.png';
-
+import Link from 'next/link';
 export default function NextPage() {
     return(
         <div>
             <div className={'mx-[200px] mb-5'}>
-                <div className='flex p-3 pl-0 text-black'>
-                    <Icon icon={'tabler:arrow-left'} className={'w-[24px] h-[24px] text-black'}/>
-                    <Button word={'back'} className='w-[32px ] h-[24px] font-[400] text-[14px] leading-[24px]'/>
-                </div>
+                <Link href={'/assessmentNextpage'}>
+                    <div className='flex p-3 pl-0 text-black'>
+                        <Icon icon={'tabler:arrow-left'} className={'w-[24px] h-[24px] text-black'}/>
+                        <Button word={'back'} className='w-[32px ] h-[24px] font-[400] text-[14px] leading-[24px]'/>
+                    </div>
+                </Link>
+
 
                 <div className="relative flex items-center pt-[100px]">
                     <div className="absolute flex items-center top-[3px] left-[763px] transform -translate-x-1/2">
