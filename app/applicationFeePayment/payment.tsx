@@ -6,14 +6,16 @@ import heroImage from '../../public/landingPagePaid/hero/heroImage.png';
 import paystack from '../../public/applicationFeepayment/payment/paystack.png'
 import creditCard from '../../public/applicationFeepayment/payment/creditCard.png'
 import Image from 'next/image';
+import Link from 'next/link';
+
 export default function Payment(){
     return (
         <div>
             <div className={'flex  ml-[150px] '}>
-                <link href={'/landingpageApplicationFee'}>
+                <Link href={'/landingpageApplicationFee'}>
                     <Icon icon={'ri:arrow-left-line'} className={'text-black w-6 h-7 pb-3  mt-5'}/>
                     <Button className={'text-black text-[13px] mt-5 '} word={'Back'}/>
-                </link>
+                </Link>
             </div>
             <div className={'flex mt-5 mb-[100px]'}>
                 <div className={'w-[68%] border-2 ml-[100px] '}>
