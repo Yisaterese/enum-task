@@ -27,8 +27,6 @@ const ConfirmPayment:React.FC<ConfirmPaymentProps>=({text,link})=>{
                         <Button word={text} className="button" />
                     </Link>
                 </div>
-
-
             </div>
         </div>
     );
