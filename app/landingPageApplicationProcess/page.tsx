@@ -8,7 +8,9 @@ export default function Page() {
     return(
         <div>
             <Navbar/>
-            <Hero path={'/landingPageAdmissionGranted'} buttonText={'Processing your Application'}/>
+            <Hero heroBackButton={'/submitAssessment'}
+                  path={'/landingPageAdmissionGranted'}
+                  buttonText={'Processing your Application'}/>
             <Partners/>
             <AdmissionGranted/>
         </div>
