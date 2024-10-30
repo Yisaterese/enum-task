@@ -8,8 +8,7 @@ export default function  Page(){
         <div>
             <Navbar />
             <Hero heroBackButton={'/takeAssessmentClicked'}
-                  path={'/assessmentPage'}
-                  buttonText={'Begin Assessment'}/>
+                  path={'/assessmentPage'}/>
             <Partners/>
             <AssessmentPage/>
         </div>
