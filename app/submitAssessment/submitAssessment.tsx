@@ -10,6 +10,7 @@ import submitAssessmentImage from "../../public/takeAssessment/submitAssessmentI
 import timeImage from '../../public/takeAssessment/timeImage.png';
 import Link from 'next/link';
 export default function NextPage() {
+
     return(
         <div>
             <div className={'mx-[200px] mb-5'}>
@@ -84,16 +85,21 @@ export default function NextPage() {
                                         className='w-[32px ] h-[18px] font-[400] text-[14px] leading-[24px]'/>
                             </div>
                             <div className={'flex gap-5'}>
-                                <div
-                                    className='flex gap-2 w-[50%] p-2 pl-0 text-white bg-white justify-center rounded-lg border border-blue-500 mt-[45px]'>
-                                    <Button word={'Previous '}
-                                            className='w-[32px] text-blue-500 h-[24px] font-[400] text-[14px] leading-[24px]'/>
-                                </div>
-                                <div
-                                    className='flex gap-2 w-[50%] p-2 pl-0 text-white bg-[#008EEF] justify-center rounded-lg border-2 mt-[45px]'>
-                                    <Button word={'Next '}
-                                            className='w-[32px ] h-[24px] font-[400] text-[14px] leading-[24px]'/>
-                                </div>
+                                <Link href={'/assessmentNextpage'}>
+                                    <div
+                                        className='flex gap-2 w-[50%] p-2 pl-0 text-white bg-white justify-center rounded-lg border border-blue-500 mt-[45px]'>
+                                        <Button word={'Previous '}
+                                                className='w-[32px] text-blue-500 h-[24px] font-[400] text-[14px] leading-[24px]'/>
+                                    </div>
+                                </Link>
+                                <Link href={'/'}>
+                                    <div
+                                        className='flex gap-2 w-[50%] p-2 pl-0 text-white bg-[#008EEF] justify-center rounded-lg border-2 mt-[45px]'>
+                                        <Button word={'Next '}
+                                                className='w-[32px ] h-[24px] font-[400] text-[14px] leading-[24px]'/>
+                                    </div>
+                                </Link>
+
                             </div>
                         </div>
                     </div>

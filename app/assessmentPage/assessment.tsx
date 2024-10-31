@@ -62,10 +62,13 @@ export default function AssessmentPage() {
                                 <Button word={'8'} className='w-[32px ] h-[18px] font-[400] text-[14px] leading-[24px]'/>
                             </div>
 
-                            <div className='flex gap-2  p-2 pl-0 text-white bg-[#008EEF] justify-center rounded-lg border-2 mt-[45px]'>
-                                <Button word={'Next '} className='w-[32px ] h-[24px] font-[400] text-[14px] leading-[24px]'/>
-                            </div>
-
+                            <Link href={'/assessmentNextpage'}>
+                                <div
+                                    className='flex gap-2  p-2 pl-0 text-white bg-[#008EEF] justify-center rounded-lg border-2 mt-[45px]'>
+                                    <Button word={'Next '}
+                                            className='w-[32px ] h-[24px] font-[400] text-[14px] leading-[24px]'/>
+                                </div>
+                            </Link>
                         </div>
                     </div>
                 </div>
