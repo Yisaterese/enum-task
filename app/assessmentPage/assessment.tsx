@@ -24,7 +24,7 @@ export default function AssessmentPage() {
                 <div>
                 <div className={'text-black flex justify-between'}>
                         <div>
-                        <p className={'h-[31px] w-[527px] font-[600] text-[20px]  leading-[31.2px] tracking-[-2]'}>Business Management Application Assessment</p>
+                            <p className={'h-[31px] w-[527px] font-[600] text-[20px]  leading-[31.2px] tracking-[-2]'}>Business Management Application Assessment</p>
                             <p className={'text-[#6E7EA8] h-[28px] w-[151px] text-[14px] font-[400] leading-[28px]'}>4 Questions · 5 mins</p>
                         </div>
                         <p className={'text-[12px] font-[500] leading-[15.62px] tracking-[10%]'}>TOTAL UNANSWERED: 4</p>
@@ -38,7 +38,7 @@ export default function AssessmentPage() {
 
 
                         <div className={'ml-10 mt-[45px] w-full text-black'}>
-                            <div className='flex p-2   p-3 pl-0 text-black rounded-lg border-2 mb-3'>
+                            <div className='flex gap-2  p-3 pl-0 text-black rounded-lg border-2 mb-3'>
                                 <div  className={' ml-2  text-black'}>
                                     <Image src={letterA} alt={'letterA'} width={24} height={24}/>
                                 </div>
@@ -46,13 +46,12 @@ export default function AssessmentPage() {
                                         className='w-[32px ] h-[18px]font-[400] text-[14px] leading-[24px]'/>
                             </div>
 
-                            <div className='flex p-2   pl-0 text-black rounded-lg border-2 mb-3'>
+                            <div className='flex p-2  gap-2 pl-0 text-black rounded-lg border-2 mb-3'>
                                 <Image src={letterB} alt={'letterA'} className={'w-[24px] ml-2 h-[24px] text-black'}/>
-                                <Button word={'6 '}
-                                        className='w-[32px ] h-h-[18px] font-[400] text-[14px] leading-[24px]'/>
+                                <Button word={'6 '} className='w-[32px ] h-h-[18px] font-[400] text-[14px] leading-[24px]'/>
                             </div>
 
-                            <div className='flex p-2   pl-0 text-black rounded-lg border-2 mb-3'>
+                            <div className='flex p-2 gap-2  pl-0 text-black rounded-lg border-2 mb-3'>
                                 <Image src={letterC} alt={'letterC'} className={'w-[24px] ml-2 h-[24px] text-black'}/>
                                 <Button word={'12'} className='w-[32px ] h-[18px] font-[400] text-[14px] leading-[24px]'/>
                             </div>

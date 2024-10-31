@@ -56,32 +56,31 @@ export default function NextPage() {
 
                             <div className='flex p-2  gap-2 pl-0 text-black rounded-lg border-2 mb-3'>
                                 <Image src={letterC} alt={'letterC'} className={'w-[24px] ml-2 h-[24px] text-black'}/>
-                                <Button word={'European art has got nothing on Nigerian art'} className='w-[32px ] h-[18px] font-[400] text-[14px] leading-[24px]'/>
+                                <Button word={'European art has got nothing on Nigerian art'}
+                                        className='w-[32px ] h-[18px] font-[400] text-[14px] leading-[24px]'/>
                             </div>
 
                             <div className='flex gap-2  p-2 pl-0 text-black rounded-lg border-2 mb-3'>
                                 <Image src={letterD} alt={'letterD'} className={'w-[24px] h-[24px] ml-2 text-black'}/>
-                                <Button word={'Nigerian art is in a bubble'} className='w-[32px ] h-[18px] font-[400] text-[14px] leading-[24px]'/>
+                                <Button word={'Nigerian art is in a bubble'}
+                                        className='w-[32px ] h-[18px] font-[400] text-[14px] leading-[24px]'/>
                             </div>
-
-                            <div className={'flex gap-5 '}>
-                                <Link href={'/assessmentPage'}>
-                                    <div
-                                        className='flex gap-2 w-[50%] p-2 pl-0 text-white bg-white justify-center rounded-lg border border-blue-500 mt-[45px]'>
+                            <div className={'flex gap-5'}>
+                                <Link href={'/assessmentPage'}
+                                      className={'flex gap-2 w-[50%] p-2 pl-0 text-white bg-white justify-center rounded-lg border border-blue-500 mt-[45px]'}>
+                                    <div>
                                         <Button word={'Previous '}
-                                                className='w-[32px] text-blue-500 h-[24px] font-[400] text-[14px] leading-[24px]'/>
-                                    </div>
-                                </Link>
-                                <Link href={'/submitAssessment'}>
-                                    <div
-                                        className='flex gap-2 w-[50%] p-2 pl-0 text-white bg-[#008EEF] justify-center rounded-lg border-2 mt-[45px]'>
-                                        <Button word={'Next '}
-                                                className='w-[32px ] h-[24px] font-[400] text-[14px] leading-[24px]'/>
+                                                className='w-[32px] text-blue-500 h-[24px] font-[400] text-[14px] '/>
                                     </div>
                                 </Link>
 
+                                <Link href={'/submitAssessment'}
+                                      className={'flex gap-2 w-[50%] p-2 pl-0 text-white bg-[#008EEF] justify-center rounded-lg border-2 mt-[45px]'}>
+                                    <div>
+                                        <Button word={'Next '} className='w-[32px ] h-[24px] font-[400] text-[14px] '/>
+                                    </div>
+                                </Link>
                             </div>
-
 
                         </div>
                     </div>

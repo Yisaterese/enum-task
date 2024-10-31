@@ -1,11 +1,23 @@
-import React from 'react';
+'use client';
+import React, { useState } from 'react';
 import NextPage from "../../app/assessmentNextpage/nextPage";
-import AssessmentNavbar from "../../app/assessmentPage/assessmentNavbar";
-export default function Page(){
-    return(
+import AssessmentNavbar from "../../component/assessmentNavbar";
+
+export default function Page() {
+    const [isCancelledButton, setIsCancelledButton] = useState(true);
+    const handleIsCancelled = () => {
+        setIsCancelledButton(false);
+    }
+
+
+    return (
         <div>
-            <AssessmentNavbar/>
-            <NextPage/>
+            {isCancelledButton && (
+                <>
+                    <AssessmentNavbar link={'/assessmentPage'} onCancel={handleIsCancelled} />
+                    <NextPage />
+                </>
+            )}
         </div>
     );
 }

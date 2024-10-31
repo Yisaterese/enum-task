@@ -14,8 +14,13 @@ export type ButtonProps={
 
 export type HeroPageProps ={
     path:string;
-    buttonText?:string;
+    buttonText? :string;
     heroBackButton:string;
+}
+
+export type AssessmentNavbarProps={
+    onCancel: () => void;
+    link:string;
 }
 export interface RatingProps {
     applicationFee: string;

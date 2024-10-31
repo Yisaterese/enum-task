@@ -1,11 +1,21 @@
-import React from 'react';
+'use client'
+import React, {useState} from 'react';
 import SubmittedPage from "../../app/assessmentSubmitted/submittedPage";
-import AssessmentNavbar from "../../app/assessmentPage/assessmentNavbar";
+import AssessmentNavbar from "../../component/assessmentNavbar";
 export default function Page(){
+    const [isCancelButton, setIsCancelButton] = useState(true);
+    const handleCancelButtonClick = () => {
+        setIsCancelButton(false);
+    }
+
     return(
-        <div>
-            <AssessmentNavbar/>
-            <SubmittedPage/>
-        </div>
+        <>
+            { isCancelButton &&(
+            <div>
+                <AssessmentNavbar link={'/submitAssessment'} onCancel={handleCancelButtonClick} />
+                <SubmittedPage/>
+            </div>
+            )}
+        </>
     );
 }

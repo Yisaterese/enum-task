@@ -1,4 +1,3 @@
-import React from 'react';
 import Button from "../../component/button";
 import { Icon } from '@iconify/react';
 import Image from 'next/image';
@@ -10,6 +9,7 @@ import submitAssessmentImage from "../../public/takeAssessment/submitAssessmentI
 import timeImage from '../../public/takeAssessment/timeImage.png';
 import Link from 'next/link';
 export default function NextPage() {
+
 
     return(
         <div>
@@ -81,25 +81,21 @@ export default function NextPage() {
                             </div>
                             <div className='flex gap-2 p-2 pl-0 text-black rounded-lg border-2 mb-3'>
                                 <Image src={letterD} alt={'letterD'} className={'w-[24px] h-[24px] ml-2 text-black'}/>
-                                <Button word={'Sculpture'}
-                                        className='w-[32px ] h-[18px] font-[400] text-[14px] leading-[24px]'/>
+                                <Button word={'Sculpture'} className='w-[32px ] h-[18px] font-[400] text-[14px] leading-[24px]'/>
                             </div>
+
                             <div className={'flex gap-5'}>
-                                <Link href={'/assessmentNextpage'}>
-                                    <div
-                                        className='flex gap-2 w-[50%] p-2 pl-0 text-white bg-white justify-center rounded-lg border border-blue-500 mt-[45px]'>
-                                        <Button word={'Previous '}
-                                                className='w-[32px] text-blue-500 h-[24px] font-[400] text-[14px] leading-[24px]'/>
-                                    </div>
-                                </Link>
-                                <Link href={'/'}>
-                                    <div
-                                        className='flex gap-2 w-[50%] p-2 pl-0 text-white bg-[#008EEF] justify-center rounded-lg border-2 mt-[45px]'>
-                                        <Button word={'Next '}
-                                                className='w-[32px ] h-[24px] font-[400] text-[14px] leading-[24px]'/>
+                                <Link href={'/assessmentPage'} className={'flex gap-2 w-[50%] p-2 pl-0 text-white bg-white justify-center rounded-lg border border-blue-500 mt-[45px]'}>
+                                    <div>
+                                        <Button word={'Previous '} className='w-[32px] text-blue-500 h-[24px] font-[400] text-[14px] '/>
                                     </div>
                                 </Link>
 
+                                <Link href={'/landingPageApplicationProcess'} className={'flex gap-2 w-[50%] p-2 pl-0 text-white bg-[#008EEF] justify-center rounded-lg border-2 mt-[45px]'}>
+                                    <div>
+                                        <Button word={'Next '} className='w-[32px ] h-[24px] font-[400] text-[14px] '/>
+                                    </div>
+                                </Link>
                             </div>
                         </div>
                     </div>
