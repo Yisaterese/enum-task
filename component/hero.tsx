@@ -56,7 +56,6 @@ const Hero:React.FC<HeroPageProps> = ({path,buttonText,heroBackButton}) => {
                             <Button word={buttonText} className="bg-white rounded p-2 h-[48px] lg:h-[132px] text-black px-4 lg:px-6 py-2 text-sm" />
                         </Link>
                     )}
-
                     <p className="mt-2 text-[14px] lg:text-[16px]  lg:w-[265px] h-[21px]">
                         5,000 students already enrolled
                     </p>

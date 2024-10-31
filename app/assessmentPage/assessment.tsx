@@ -12,7 +12,7 @@ export default function AssessmentPage() {
     return(
         <div>
             <div className={'mx-[200px] mb-10'}>
-                <Link href={'/takeAssessmentClicked'}>
+                <Link href={'/takeAssessment'}>
                     <div className='flex  p-3 pl-0 text-black'>
                         <Icon icon={'tabler:arrow-left'} className={'w-[24px] h-[24px] text-black'}/>
                         <Button word={'back'} className='w-[32px ] h-[24px]  font-[400] text-[14px] leading-[24px]'/>
