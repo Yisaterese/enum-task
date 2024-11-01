@@ -12,7 +12,10 @@ import logo1 from '../public/programs/logo/semicolonLogo.png';
 import logo2 from '../public/programs/logo/ihsLogo.png';
 import logo3 from '../public/programs/logo/alatLogo.png';
 
-
+import letterA from '../public/takeAssessment/letterA.png';
+import letterB from '../public/takeAssessment/letterB.png';
+import letterC from '../public/takeAssessment/letterC.png';
+import letterD from '../public/takeAssessment/letterD.png';
 
 
 export const InstructionList =[
@@ -41,3 +44,12 @@ export const ProgramImageList=[
     [image10, logo2, "Business Management", "Free"]
 
 ]
+
+
+
+export const options = [
+    { src: letterA, alt: 'letterA', word: 'Art installation' },
+    { src: letterB, alt: 'letterB', word: 'Photography' },
+    { src: letterC, alt: 'letterC', word: 'Painting' },
+    { src: letterD, alt: 'letterD', word: 'Sculpture' },
+];
