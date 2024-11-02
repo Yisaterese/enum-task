@@ -6,7 +6,7 @@ import submitAssessmentImage from "../../public/takeAssessment/submitAssessmentI
 import timeImage from '../../public/takeAssessment/timeImage.png';
 import Link from 'next/link';
 import { useState } from "react";
-import SubmittedPage from "../assessmentSubmitted/submittedPage";
+import SubmittedPage from "./submittedPage";
 import { options } from "../../utils/list";
 
 export default function NextPage() {
@@ -60,8 +60,6 @@ export default function NextPage() {
                         )}
                     </>
 
-
-
                     <p className="border border-blue-500 mb-5"></p>
 
                     <div>
@@ -105,7 +103,7 @@ export default function NextPage() {
                                 </div>
 
                                 <div className={'flex gap-2'}>
-                                    <Link href="/assessmentPage"
+                                    <Link href="/assessmentNextpage"
                                           className="flex gap-2 w-[50%] p-2 text-blue-500 bg-white justify-center rounded-lg border border-blue-500 mt-[45px]"
                                     >
                                         <button className="w-[32px] h-[24px] font-[400] text-[14px]"> Previous</button>
