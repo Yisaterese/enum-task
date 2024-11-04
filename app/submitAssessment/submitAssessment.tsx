@@ -114,10 +114,9 @@ export default function NextPage() {
                                     >
                                         <button className="w-[32px] h-[24px] font-[400] text-[14px]"> Submit</button>
                                     </button>
-
                                 </div>
-
                             </div>
+
                         </div>
                     </div>
                 </div>

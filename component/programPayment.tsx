@@ -12,7 +12,9 @@ const  Payment:React.FC<PaymentProps>= ({path,leadershipProgramFee, subtotal,lea
         <div>
             <div className={'flex  ml-[150px] '}>
                 <Icon icon={'ri:arrow-left-line'} className={'text-black w-6 h-7 pb-3  mt-5'}/>
-                <Button className={'text-black text-[13px] mt-5 '} word={'Back'}/>
+                <Link href={'/landingPageAdmissionGranted'}>
+                    <Button className={'text-black text-[13px] mt-5 '} word={'Back'}/>
+                </Link>
             </div>
             <div className={'flex mt-5 mb-[100px]'}>
                 <div className={'w-[68%] border-2 ml-[100px] '}>

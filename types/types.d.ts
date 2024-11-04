@@ -8,7 +8,7 @@ export type ProgramSectionProps = {
 
 export type ButtonProps={
     icon?: StaticImageData;
-    word:string;
+    word?:string;
     className?: string;
 }
 
@@ -21,6 +21,10 @@ export type HeroPageProps ={
 export type AssessmentNavbarProps={
     onCancel: () => void;
     link:string;
+}
+
+export type OptionsText={
+    text:string;
 }
 export interface RatingProps {
     applicationFee: string;

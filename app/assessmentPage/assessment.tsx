@@ -3,11 +3,8 @@ import Button from "../../component/button";
 import {Icon} from '@iconify/react';
 import colouredShapes from  '../../public/takeAssessment/colouredShapes.png';
 import Image from 'next/image';
-import letterA from '../../public/takeAssessment/letterA.png';
-import letterB from '../../public/takeAssessment/letterB.png';
-import letterC from '../../public/takeAssessment/letterC.png';
-import letterD from '../../public/takeAssessment/letterD.png';
 import Link from 'next/link'
+import {AssessmentPageOptions} from "@/utils/list";
 export default function AssessmentPage() {
     return(
         <div>
@@ -37,28 +34,20 @@ export default function AssessmentPage() {
                         </div>
 
 
-                        <div className={'ml-10 mt-[45px] w-full text-black'}>
-                            <div className='flex gap-2  p-3 pl-0 text-black rounded-lg border-2 mb-3'>
-                                <div  className={' ml-2  text-black'}>
-                                    <Image src={letterA} alt={'letterA'} width={24} height={24}/>
-                                </div>
-                                <Button word={'4 '}
-                                        className='w-[32px ] h-[18px]font-[400] text-[14px] leading-[24px]'/>
-                            </div>
+                        <div className=" mt-4 ml-6 gap-5 w-full">
 
-                            <div className='flex p-2  gap-2 pl-0 text-black rounded-lg border-2 mb-3'>
-                                <Image src={letterB} alt={'letterA'} className={'w-[24px] ml-2 h-[24px] text-black'}/>
-                                <Button word={'6 '} className='w-[32px ] h-h-[18px] font-[400] text-[14px] leading-[24px]'/>
-                            </div>
-
-                            <div className='flex p-2 gap-2  pl-0 text-black rounded-lg border-2 mb-3'>
-                                <Image src={letterC} alt={'letterC'} className={'w-[24px] ml-2 h-[24px] text-black'}/>
-                                <Button word={'12'} className='w-[32px ] h-[18px] font-[400] text-[14px] leading-[24px]'/>
-                            </div>
-
-                            <div className='flex gap-3  p-2 pl-0 text-black rounded-lg border-2 mb-3'>
-                                <Image src={letterD} alt={'letterD'} className={'w-[24px] h-[24px] ml-2 text-black'}/>
-                                <Button word={'8'} className='w-[32px ] h-[18px] font-[400] text-[14px] leading-[24px]'/>
+                            <div className="w-full mt-[45px] text-black">
+                                {AssessmentPageOptions.map((option, index) => (
+                                    <div key={index}
+                                         className="flex items-center p-2 gap-2 pl-0 text-black rounded-lg border-2 mb-3">
+                                        <Image src={option.src} alt={option.alt}
+                                               className="w-[24px] h-[24px] ml-2"/>
+                                        <Button
+                                            word={option.word}
+                                            className="font-[400] text-[14px] leading-[24px]"
+                                        />
+                                    </div>
+                                ))}
                             </div>
 
                             <Link href={'/assessmentNextpage'}>
@@ -69,10 +58,12 @@ export default function AssessmentPage() {
                                 </div>
                             </Link>
                         </div>
+
+
                     </div>
                 </div>
-
             </div>
+
         </div>
     );
 }

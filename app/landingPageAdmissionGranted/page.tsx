@@ -8,7 +8,7 @@ export default function Page(){
         <div>
             <Navbar/>
             <Hero
-                    heroBackButton={'/landingPageApplicationProcess'}
+                    heroBackButton={'/submitAssessment'}
                     path={'/makePaymentProgram'}
                     buttonText={'Proceed to Payment'}/>
 

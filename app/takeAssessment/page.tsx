@@ -7,7 +7,7 @@ export default function  Page(){
     return(
         <div>
             <Navbar />
-            <Hero heroBackButton={'/takeAssessmentClicked'}
+            <Hero heroBackButton={'/applicationFeePayment'}
                   path={'/assessmentPage'}/>
             <Partners/>
             <AssessmentPage/>

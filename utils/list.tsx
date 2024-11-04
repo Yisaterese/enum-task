@@ -53,3 +53,10 @@ export const options = [
     { src: letterC, alt: 'letterC', word: 'Painting' },
     { src: letterD, alt: 'letterD', word: 'Sculpture' },
 ];
+
+export const AssessmentPageOptions = [
+    { src: letterA, alt: 'letterA', word: '4'},
+    { src: letterB, alt: 'letterB', word: '6' },
+    { src: letterC, alt: 'letterC', word: '12' },
+    { src: letterD, alt: 'letterD', word: '8' },
+];
