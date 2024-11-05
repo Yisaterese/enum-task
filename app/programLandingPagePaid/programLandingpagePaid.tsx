@@ -8,7 +8,7 @@ export default function  ProgramLandingPagePaid() {
         <div>
             <Navbar/>
             <Hero
-                heroBackButton={''}
+                heroBackButton={'/programs'}
                 path={'/landingpageApplicationFee'}
                 buttonText={'Apply Now'}/>
             <Partners/>

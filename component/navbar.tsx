@@ -7,7 +7,7 @@
 
     const Navbar =()=>{
         return (
-            <div className=' border border-[#F9FDFF] '  style={{paddingBottom:'20px'}}>
+            <div className=' border border-[#F9FDFF] hidden md:flex sm:bg-red-700'  style={{paddingBottom:'20px'}}>
                 <div className='flex justify-between mt-1 ml-[4%] mr-[4%]  '>
                     <Image src={enumImage} alt='Enum Image' className=''/>
 

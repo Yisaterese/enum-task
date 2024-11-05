@@ -31,3 +31,7 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.programsNavbar{
+  @apply md:w-full
+}

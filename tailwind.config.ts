@@ -5,6 +5,7 @@ const config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  // content: ["./src/**/*.{html,js, ts, jsx, tsx}"],
   theme: {
     extend: {
       colors: {
